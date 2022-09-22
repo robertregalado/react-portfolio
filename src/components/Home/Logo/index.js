@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap-trial'
 import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
-import LogoS from '../../../assets/images/logo-s.png'
+import LogoS from '../../../assets/images/r_logo.png'
 import './index.scss'
 
 const Logo = () => {
@@ -46,10 +46,10 @@ const Logo = () => {
             />
 
             <svg
-                width="559pt"
-                height="897pt"
+                width="1280pt"
+                height="1280pt"
                 version="1.0"
-                viewBox="0 0 559 897"
+                viewBox="0 0 1280 1280"
                 xmlns="http://www.w3.org/2000/svg"
             >
                 <g
