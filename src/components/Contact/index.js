@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-//import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import { Marker, Popup } from 'react-leaflet'
+import { MapContainer } from 'react-leaflet/MapContainer'
+import { TileLayer } from 'react-leaflet/TileLayer'
+
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
@@ -11,10 +14,15 @@ const Contact = () => {
     const form = useRef()
 
     useEffect(() => {
-        return setTimeout(() => {
-            setLetterClass('text-animate-hover')
-        }, 3000)
+        setTimeout();
     }, [])
+
+
+    const setTimeout = () => {
+        return (
+            setLetterClass('text-animate-hover')
+            , 3000)
+    }
 
     const sendEmail = (e) => {
         e.preventDefault()
@@ -85,25 +93,25 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="info-map">
-                    Slobodan Gajić,
+                    Imus Cavite,
                     <br />
-                    Serbia,
+                    Philippines,
                     <br />
-                    Branka RadiČevića 19, 22000 <br />
-                    Sremska Mitrovica <br />
+                    Malagasang 1F, 4103 <br />
+                    Calabarzon Region IV-A <br />
                     <br />
-                    <span>freelancerslobodan@gmail.com</span>
+                    <span>rjregalado@gmail.com</span>
                 </div>
-                {/*
+
                 <div className="map-wrap">
-                    <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+                    <MapContainer center={[14.38069, 120.93059]} zoom={13}>
                         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                        <Marker position={[44.96366, 19.61045]}>
-                            <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+                        <Marker position={[14.38069, 120.93059]}>
+                            <Popup>Robert lives here, come over for a cup of coffee </Popup>
                         </Marker>
                     </MapContainer>
                 </div>
-                */}
+
             </div>
             <Loader type="pacman" />
         </>

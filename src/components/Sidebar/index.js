@@ -72,7 +72,7 @@ const Sidebar = () => {
             <ul>
                 <li>
                     <a
-                        href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+                        href="https://www.linkedin.com/in/robert-regalado-20014a15/"
                         target="_blank"
                         rel="noreferrer"
                     >
@@ -85,7 +85,7 @@ const Sidebar = () => {
                 </li>
                 <li>
                     <a
-                        href="https://github.com/bobangajicsm"
+                        href="https://github.com/rojre1979"
                         target="_blank"
                         rel="noreferrer"
                     >
@@ -98,7 +98,7 @@ const Sidebar = () => {
                 </li>
                 <li>
                     <a
-                        href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
+                        href="https://www.youtube.com/channel/UC7LDkF5WiUrJgEsO-I_lclQ"
                         rel="noreferrer"
                         target="_blank"
                     >
@@ -110,7 +110,7 @@ const Sidebar = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
+                    <a href="skype:live:.cid.ce2126ba1fa4449e" rel="noreferrer" target="_blank">
                         <FontAwesomeIcon
                             icon={faSkype}
                             color="#4d4d4e"
